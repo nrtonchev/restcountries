@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const appIdKey = 'bde3f8bb4b47fbea3f5c0ad4fd9913a8';
+const appIdKey = import.meta.env.OPEN_WEATHER_KEY;
 const url = 'https://api.openweathermap.org/data/2.5/weather?'
 
 const getCapitalWeather = (lat, lon) => {
